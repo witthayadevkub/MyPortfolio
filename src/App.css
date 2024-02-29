@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap");
+
+
+html{
+    scroll-behavior: smooth;
+}
+span {
+  /* font-family: "Roboto Slab", serif; */
+  font-family: "Kanit", sans-serif;
+}
+
+
+
+.paint {
+
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff5733, #c70039, #900c3f);
+  position: relative;
+  animation: drip 2s infinite linear;
+
+}
+@keyframes drip {
+  0% {
+    border-radius: 20% 40% 60% 80%;
+    box-shadow: rgba(7, 174, 240, 0.4) 0px 30px 90px;
+
+  }
+  25% {
+    border-radius: 40% 30% 20% 50%;
+  }
+  50% {
+    border-radius: 80% 50% 30% 30%;
+    box-shadow: rgba(0, 183, 255, 0.25) 0px 50px 100px -20px,
+      rgba(30, 255, 255, 0.3) 0px 30px 60px -30px,
+      rgba(30, 255, 255, 0.3) 0px 30px 60px -30px;
+
+  }
+  75% {
+    border-radius: 40% 80% 30% 50%;
+  
+  }
+  100% {
+    border-radius: 20% 40% 60% 80%;
+    box-shadow: rgba(7, 174, 240, 0.4) 0px 30px 90px;
+  
+  }
+}
+
+.textanimate {
+  position: relative;
+  animation: textanimate 1s ease-out;
+}
+@keyframes textanimate {
+  0% {
+    opacity: 0;
+    transform: translateX(-15%); /* Initial vertical translation */
+    color: aqua;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateX(
+      -10%
+    ); /* Full translation to original position at 50% of animation duration */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Final vertical translation */
+  }
+}
+
+.codeAnimate {
+  position: relative;
+  animation: codeAnimate 1s ease-out;
+}
+@keyframes codeAnimate {
+  0% {
+    opacity: 0;
+    transform: translateY(-15%); /* Initial vertical translation */
+    color: aqua;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(
+      -10%
+    ); /* Full translation to original position at 50% of animation duration */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Final vertical translation */
+  }
+}
+
+.navAnimate {
+  position: relative;
+  animation: navAnimate 0.5s ease-out;
+}
+@keyframes navAnimate {
+  0% {
+    opacity: 0;
+    transform: translateX(15%); 
+    color: aqua;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateX(10%);
+  }
+
+  100% { 
+    opacity: 1;
+    transform: translateX(0); 
+  }
+}
