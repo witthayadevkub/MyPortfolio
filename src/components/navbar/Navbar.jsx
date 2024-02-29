@@ -1,12 +1,12 @@
 // Navbar.js
 import React, { useState } from 'react';
 import { useModeContext } from '../../main';
-import { LuMenu } from "react-icons/lu";
+
 const Navbar = ({ sections }) => {
   const { darkMode, setDarkMode } = useModeContext()
   const [OpenMenu, setOpenMenu] = useState(false)
   return (
-    <nav className='flex justify-end w-full items-center gap-5'>
+    <nav className='flex justify-end w-full items-center gap-5 z-50'>
       {sections.map((section,i) => (
         <div key={i} className='hidden md:block font-semibold'>
           <a href={`#${section.id}`}>{section.title}</a>
@@ -27,8 +27,6 @@ const Navbar = ({ sections }) => {
       </label>
 
       {OpenMenu && <div className='  navAnimate absolute top-[55px] right-0 w-[200px] h-auto shadow rounded-lg text-white bg-redbox z-10  '>
-
-
         <ul className="menu bg-base-200 w-full text-black z-50 md:hidden">
           <li>
             {sections.map(section => (
@@ -40,9 +38,6 @@ const Navbar = ({ sections }) => {
         </ul>
 
       </div>}
-
-
-
 
     </nav>
   );

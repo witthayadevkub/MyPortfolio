@@ -20,10 +20,10 @@ function App() {
   ];
 
   return (
-    <div className={`bg-${mode} `}>
-      <div className={`max-w-6xl mx-auto bg-${mode}  ${darkMode ? 'text-white' : 'text-black'}  `} >
+    <div className={`${darkMode ? "bg-black":"bg-white"} `}>
+      <div className={`max-w-6xl mx-auto  ${darkMode ? 'text-white' : 'text-black'}`} >
 
-      <div className={`max-w-6xl bg-${mode} fixed  w-full z-50`}>
+      <div className={`max-w-6xl fixed  w-full z-50`}>
         <div className="flex justify-between z-5 p-3 shadow">
           <Navbar sections={sections} />
         </div>
@@ -31,11 +31,11 @@ function App() {
 
       <div className="grid lg:grid-cols-[2fr_3fr] gap-3 ">
 
-        <div className={`bg-${mode} w-full `}>
+        <div className={` w-full `}>
           <Sidebar sections={sections} />
         </div>
 
-        <div className={`bg-${mode}`}>
+        <div className={``}>
           <Sections />
         </div>
 

@@ -18,8 +18,7 @@ import react from "../../assets/react icon.png"
 import html from "../../assets/logo-html.png"
 import css from "../../assets/logo-css.png"
 import tailwind from "../../assets/tailwind-logo.png"
-import skill from "../../assets/skill.jpg"
-import codeSkill from "../../assets/codeSkill1.png"
+
 import { useModeContext } from '../../main';
 
 import { TypingAnimation } from '../TypingAnimation';
