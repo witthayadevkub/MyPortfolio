@@ -6,7 +6,7 @@ import Project from '../project/Project';
 
 const Sections = () => {
   return (
-    <div className=" pt-[3rem] grid gap-[5rem]">
+    <div className=" pt-[3rem] grid gap-[5rem] px-5">
       <div className="h-full  scroll-mt-[4rem] relative ">
         <About />
         <Skill />

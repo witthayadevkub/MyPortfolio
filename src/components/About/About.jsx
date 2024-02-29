@@ -36,7 +36,7 @@ const About = () => {
   }
   return (
     <div id="about" className="scroll-mt-80 ">
-      <p className='text-lg'>About</p>
+      <p className='text-lg font-semibold'>-About</p>
       <p className='text-gray-500 text-md z-20 font-semibold'>Embrace challenges and failures
         embrace challenges as opportunities for growth. Programming inherently involves solving complex problems, and setbacks are
         inevitable. Instead of being discouraged by failures, view them as learning experiences. Analyze what went wrong, iterate on your approach, and strive for improvement.</p>

@@ -53,7 +53,7 @@ const Project = () => {
                             <div className="text-md text-gray-500">{project.details}</div>
                         </div>
 
-                        <div className="flex flex-wrap gap-3 w-4/5 text-md">
+                        <div className="flex flex-wrap gap-3 w-4/5 text-sm">
                             {project.use.map((skill, i) => (
                                 <div key={i} className={`p-1 rounded  bg-slate-800 ${darkMode ? "" : "text-white"} ${isAnimating[index] ? "text-colorbase " : "text-gray-300"}`}>{skill}</div>
                             ))}

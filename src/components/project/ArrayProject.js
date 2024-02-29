@@ -9,8 +9,17 @@ import poke from "../../assets/poke.png";
 import spaceApi from "../../assets/space-api.png";
 import calculator from "../../assets/calculator.png";
 import todolist from "../../assets/todolist.png";
-
+import portfolio from "../../assets/portfolio.png"
 export const projects = [
+     {
+    title: "MyPortfolio",
+    link: "https://myportfolio-hhxk.onrender.com/",
+    github: ["https://github.com/witthayadevkub/MyPortfolio"],
+    use: ["react.js", "HTML", "tailwind.Css"],
+    details: "Make to show my project",
+    img: portfolio,
+    time: "Mar 1, 2024",
+  },
   {
     title: "#Mern Stack: App-Chat Real-time ",
     link: "https://app-chat-frontend-sn5q.onrender.com",

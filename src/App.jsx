@@ -23,8 +23,8 @@ function App() {
     <div className={`${darkMode ? "bg-black":"bg-white"} `}>
       <div className={`max-w-6xl mx-auto  ${darkMode ? 'text-white' : 'text-black'}`} >
 
-      <div className={`max-w-6xl fixed  w-full z-50`}>
-        <div className="flex justify-between z-5 p-3 shadow">
+      <div className={`max-w-6xl fixed  w-full z-50 ${darkMode ? "bg-black":"bg-white"}`}>
+        <div className="flex justify-between z-5 p-3 shadow ">
           <Navbar sections={sections} />
         </div>
       </div>

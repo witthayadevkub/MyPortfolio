@@ -6,7 +6,7 @@ const Navbar = ({ sections }) => {
   const { darkMode, setDarkMode } = useModeContext()
   const [OpenMenu, setOpenMenu] = useState(false)
   return (
-    <nav className='flex justify-end w-full items-center gap-5 z-50'>
+    <nav className={`flex justify-end w-full items-center gap-5 z-50 `}>
       {sections.map((section,i) => (
         <div key={i} className='hidden md:block font-semibold'>
           <a href={`#${section.id}`}>{section.title}</a>

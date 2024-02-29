@@ -14,7 +14,7 @@ span {
 .paint {
 
   border-radius: 50%;
-  background: linear-gradient(45deg, #ff5733, #c70039, #900c3f);
+ 
   position: relative;
   animation: drip 2s infinite linear;
 
