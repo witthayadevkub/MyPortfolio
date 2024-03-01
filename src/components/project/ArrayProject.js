@@ -10,7 +10,17 @@ import spaceApi from "../../assets/space-api.png";
 import calculator from "../../assets/calculator.png";
 import todolist from "../../assets/todolist.png";
 import portfolio from "../../assets/portfolio.png"
+import profile from "../../assets/profile-design.png"
 export const projects = [
+       {
+    title: "profile design",
+    link: "https://profile-social-design.onrender.com/",
+    github: ["https://github.com/witthayadevkub/profile-social-design"],
+    use: ["react.js", "HTML", "tailwind.Css"],
+    details: "design to code improve skill tailwind.css",
+    img: profile,
+    time: "Mar 2, 2024",
+  },
      {
     title: "MyPortfolio",
     link: "https://myportfolio-hhxk.onrender.com/",
