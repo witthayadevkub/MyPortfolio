@@ -81,7 +81,7 @@ const Sidebar = () => {
                         <div className=" flex justify-start gap-8 font-bold  ">
                             <a href="https://www.linkedin.com/in/witthaya-faengsap-04437b2b4/" target='_blank'><AiOutlineLinkedin className='text-xl hover:scale-125 ease-out duration-300 hover:text-colorbase' /></a>
                             <a href="https://github.com/witthayadevkub" target='_blank'><FaGithub className='text-xl hover:scale-125 ease-out duration-300 hover:text-colorbase' /></a>
-                            <div className="tooltip" data-tip="Click to coppy my Email">
+                            <div className="tooltip" data-tip="Click to copy my Email">
                                 <TfiEmail onClick={handleCopyText} className=' hover:text-colorbase text-xl hover:scale-125 ease-out duration-300 ' />
                             </div>
                         </div>
@@ -105,8 +105,8 @@ const Sidebar = () => {
                         <img src={html} alt="html" className={`size-11 object-cover absolute  z-30 right-5 bottom-[-3rem] 
                     ${isAnimating ? 'right-[-2rem] skew-y-6 translate-y-[-1rem] ' : ''} ease-out duration-300`} />
 
-                        <img src={css} alt="css" className={`size-11 object-cover absolute   right-[5rem] bottom-[-3rem] 
-                     ${isAnimating ? 'right-[-3.5rem] skew-y-6 translate-y-[-2rem]' : ''} ease-out duration-300`} />
+                        <img src={css} alt="css" className={`size-11 object-cover absolute z-30  right-[5rem] bottom-[-3rem] 
+                     ${isAnimating ? 'right-[-3rem] skew-y-12 translate-y-[-2rem]' : ''} ease-out duration-300`} />
 
                         {isAnimating && <div className='absolute font-bold text-xl bottom-[-2rem] flex textanimate z-30'>
                             <span className="text-blue-400 flex">Print <span className='text-yellow-400'> ( <span className="text-[#6dbe74]">"Hello"</span> )</span></span> </div>}

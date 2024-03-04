@@ -20,8 +20,8 @@ function App() {
   ];
 
   return (
-    <div className={`${darkMode ? "bg-black":"bg-white"} `}>
-      <div className={`max-w-6xl mx-auto  ${darkMode ? 'text-white' : 'text-black'}`} >
+    <div className={`  ${darkMode ? "bg-black":"bg-white"}`}>
+      <div className={`max-w-6xl mx-auto ${darkMode ? "bg-black":"bg-white"} ${darkMode ? 'text-white' : 'text-black'}`} >
 
       <div className={`max-w-6xl fixed  w-full z-50 ${darkMode ? "bg-black":"bg-white"}`}>
         <div className="flex justify-between z-5 p-3 shadow ">

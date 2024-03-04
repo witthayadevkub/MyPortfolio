@@ -74,7 +74,7 @@ const Skill = () => {
 
                 <p className='text-gray-300 '>// code</p>
                 {openCode && <>
-                    <div className={`font-semi codeAnimate p-2 rounded-lg ${!darkMode ? "bg-slate-800" : ""} text-sm sm:text-md`}>
+                    <div className={`font-semi codeAnimate p-2 rounded-lg ${!darkMode ? "bg-slate-800" : ""} text-xs sm:text-md md:text-lg`}>
                         <span className="text-violet-400 mr-2">function</span>
                         <span className="text-blue-400 ">handleSkill</span>
                         <span className='text-pink-400 '> (<span className='text-yellow-400 hover:skew-x-12'> skill</span>)</span>
