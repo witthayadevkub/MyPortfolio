@@ -106,7 +106,7 @@ const Sidebar = () => {
                     ${isAnimating ? 'right-[-2rem] skew-y-6 translate-y-[-1rem] ' : ''} ease-out duration-300`} />
 
                         <img src={css} alt="css" className={`size-11 object-cover absolute z-30  right-[5rem] bottom-[-3rem] 
-                     ${isAnimating ? 'right-[-3rem] skew-y-12 translate-y-[-2rem]' : ''} ease-out duration-300`} />
+                     ${isAnimating ? 'right-[-3.5rem] skew-y-6 translate-y-[-2rem]' : ''} ease-out duration-300`} />
 
                         {isAnimating && <div className='absolute font-bold text-xl bottom-[-2rem] flex textanimate z-30'>
                             <span className="text-blue-400 flex">Print <span className='text-yellow-400'> ( <span className="text-[#6dbe74]">"Hello"</span> )</span></span> </div>}

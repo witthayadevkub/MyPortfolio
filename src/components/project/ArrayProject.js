@@ -9,10 +9,21 @@ import poke from "../../assets/poke.png";
 import spaceApi from "../../assets/space-api.png";
 import calculator from "../../assets/calculator.png";
 import todolist from "../../assets/todolist.png";
-import portfolio from "../../assets/portfolio.png"
-import profile from "../../assets/profile-design.png"
+import portfolio from "../../assets/portfolio.png";
+import profile from "../../assets/profile-design.png";
+import socail from "../../assets/socail-app.png"
 export const projects = [
-       {
+  {
+    title: "Socail-App",
+    link: "https://65eca9f528bd13d20002b57b--eloquent-chebakia-a517b2.netlify.app/",
+    github: ["https://github.com/witthayadevkub/frontend-socail-app-ts"],
+    use: ["TypeScript","React", "HTML", "Tailwind.Css","Prisma","PostgreSQL","Express"],
+    details: "Introducing our latest project, a full-stack Social App powered by a robust backend API seamlessly integrated with Prisma to connect to our PostgreSQL database.",
+    img: socail,
+    time: "Mar 10, 2024",
+    category:"full-stack"
+  },
+  {
     title: "profile design",
     link: "https://profile-social-design.onrender.com/",
     github: ["https://github.com/witthayadevkub/profile-social-design"],
@@ -20,8 +31,9 @@ export const projects = [
     details: "design to code improve skill tailwind.css",
     img: profile,
     time: "Mar 2, 2024",
+    category:"frontend"
   },
-     {
+  {
     title: "MyPortfolio",
     link: "https://myportfolio-hhxk.onrender.com/",
     github: ["https://github.com/witthayadevkub/MyPortfolio"],
@@ -29,9 +41,10 @@ export const projects = [
     details: "Make to show my project",
     img: portfolio,
     time: "Mar 1, 2024",
+    category:"frontend"
   },
   {
-    title: "#Mern Stack: App-Chat Real-time ",
+    title: "Mern Stack: App-Chat Real-time ",
     link: "https://app-chat-frontend-sn5q.onrender.com",
     github: [
       "https://github.com/witthayadevkub/app-chat-frontend",
@@ -47,10 +60,12 @@ export const projects = [
       "mongodb",
       "socket.io",
     ],
-    details:"#mern stack .Real-time online chat ,You cna register and longin or Demo account",
+    details:
+      "mern stack .Real-time online chat ,You cna register and longin or Demo account",
     keywords: "Demo account email: user@gmail.com, password: 000000",
     img: chat,
     time: "Feb 26, 2024",
+    category:"full-stack"
   },
   {
     title: "YouTube Interface Clone (Full-Responsive)",
@@ -60,6 +75,7 @@ export const projects = [
     details: "The first project to use tailwind.Css",
     img: youtube,
     time: "Feb 13, 2024",
+     category:"frontend"
   },
   {
     title: "Facebook Interface Clone (Full-Responsive)",
@@ -69,15 +85,19 @@ export const projects = [
     details: "Review skill vanilla css",
     img: facebook,
     time: "jan 21, 2024",
+     category:"frontend"
   },
   {
     title: "Instagram Interface Clone (Mobile-Responsive)",
     link: "https://clone-interface-insta-gram.vercel.app",
-    github: ["https://github.com/witthayadevkub/Clone-Interface-Instagram?tab=readme-ov-file"],
+    github: [
+      "https://github.com/witthayadevkub/Clone-Interface-Instagram?tab=readme-ov-file",
+    ],
     use: ["react", "HTML", "Vanilla Css"],
     details: "For improve skill css and html or react",
     img: instagram,
     time: "Jan 30, 2024",
+     category:"frontend"
   },
   {
     title: "React parallax",
@@ -87,6 +107,7 @@ export const projects = [
     details: "For learning how to make website parallax, useRef in React",
     img: parallax,
     time: "Feb 10, 2024",
+     category:"frontend"
   },
   {
     title: "Little-Box-Business",
@@ -96,6 +117,7 @@ export const projects = [
     details: "",
     img: littlebox,
     time: "Feb 9, 2024",
+     category:"frontend"
   },
   {
     title: "TodoList-React",
@@ -105,6 +127,7 @@ export const projects = [
     details: "",
     img: todolist,
     time: "Mar 10, 2023",
+     category:"mini-project"
   },
   {
     title: "React-Calculator",
@@ -114,6 +137,7 @@ export const projects = [
     details: "",
     img: calculator,
     time: "Mar 9, 2023",
+      category:"mini-project"
   },
   {
     title: "react-use-api-pokemon",
@@ -124,6 +148,7 @@ export const projects = [
       ".Use API - This project is created with the goal of enhancing and refining skills. ",
     img: poke,
     time: "Mar 8, 2023",
+      category:"mini-project"
   },
   {
     title: "React-Redux-Toolkit-API-Movie",
@@ -133,6 +158,7 @@ export const projects = [
     details: "learn using React-Redux-Toolkit and API",
     img: moving,
     time: "Mar 5, 2023",
+      category:"mini-project"
   },
   {
     title: "Space-API-react",
@@ -142,12 +168,27 @@ export const projects = [
     details: "Improve skill using API from space API",
     img: spaceApi,
     time: "Mar 1, 2023",
+      category:"mini-project"
   },
- {
+  {
+    title: "Backend-API Prisma",
+    github: ["https://github.com/witthayadevkub/backend-api-prisma-ts"],
+    use: ["TypeScript","Prisma","PostgreSQL","Express"],
+    details: "Make API Technology: Typescript Express Prisma connect database postgresSQL Feature: API Cookie Authentication UploadFile CURD",
+      category:"backend"
+  },
+  {
+    title: "Backend-API App-Chat Real-Time",
+    github: ["https://github.com/witthayadevkub/app-chat-backend"],
+    use: ["Javascript","Express","mongodb","mongoose","socket.io"],
+    details: "Make API Feature: API Authentication CURD Update Real-Time connect mongodb",
+      category:"backend"
+  },
+  {
     title: "CRUD-Express",
     github: ["https://github.com/witthayadevkub/CRUD-Express"],
-    use: ["node.js","express.js"],
+    use: ["node.js", "express.js"],
     details: "make API crud use node.js express.js",
-    
+      category:"backend"
   },
 ];
